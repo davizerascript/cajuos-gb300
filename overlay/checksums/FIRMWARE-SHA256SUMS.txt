@@ -1,0 +1,1 @@
+904884a8a5ace55645367f0d62145b3403f83041d9f9f96775f592512dddf77a  unifrog/firmware/unifrog.bin

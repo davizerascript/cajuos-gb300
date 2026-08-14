@@ -1,0 +1,5 @@
+CajuOS GB300 v0.3.3 — reproducao
+O patch e o roteiro acompanham CajuOS-GB300-source-v0.3.3.zip.
+O checksum do firmware interno esta em checksums/FIRMWARE-SHA256SUMS.txt.
+Base upstream: UniFrog v0.5.2 (7a4935b6108a4f0bc6ce012a1b629bd7709c51d6).
+CajuOS commit: 6ee2c0064938d9e6ed4caa84a96fceabb577c8b0.
