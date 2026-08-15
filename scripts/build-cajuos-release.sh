@@ -2,14 +2,15 @@
 set -eu
 
 ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
-SOURCE="$ROOT/source/UniFrog-v0.5.2"
+SOURCE="$ROOT/source/CajuOS-GB300-v4.0"
 OVERLAY="$ROOT/overlay"
 WORK="$ROOT/build/cajuos-sdcard"
 RELEASE="$ROOT/release"
-VERSION=${CAJUOS_VERSION:-0.4.0-performance}
+VERSION=${CAJUOS_VERSION:-4.0}
 ZIP="$RELEASE/CajuOS-GB300-v${VERSION}-sdcard.zip"
 
 if [ ! -f "$SOURCE/output/sdcard/unifrog/firmware/unifrog.bin" ]; then
+  echo "CajuOS firmware output uses the GB300 boot-compatible unifrog/ path" >&2
   echo "missing compiled firmware; run make in $SOURCE first" >&2
   exit 1
 fi
@@ -17,14 +18,14 @@ fi
 rm -rf "$WORK"
 mkdir -p "$WORK" "$RELEASE"
 cp -a "$SOURCE/output/sdcard/." "$WORK/"
-# The source build owns firmware and cores. Copy only CajuOS-owned files here;
+# The CajuOS build owns firmware and cores. Copy only CajuOS-owned files here;
 # copying overlay/unifrog wholesale would silently replace the new firmware.
 cp -a "$OVERLAY/bios" "$WORK/"
 cp -a "$OVERLAY/ROMS" "$WORK/"
 cp -f "$OVERLAY/README-CAJUOS.txt" "$WORK/README-CAJUOS.txt"
 cp -f "$OVERLAY/REPRODUCE-CAJUOS.txt" "$WORK/REPRODUCE-CAJUOS.txt"
 
-# The source build owns the firmware and cores. CajuOS owns the language,
+# The CajuOS build owns the firmware and cores. CajuOS owns the language,
 # theme, settings, diagnostics and user-facing metadata.
 mkdir -p "$WORK/unifrog_data/languages" "$WORK/unifrog_data/scripts" \
   "$WORK/unifrog_data/cajuos/assets" "$WORK/unifrog_data/cajuos/diagnostics"

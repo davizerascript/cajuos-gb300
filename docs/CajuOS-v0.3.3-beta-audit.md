@@ -63,9 +63,9 @@ O arquivo ZIP auditado tem SHA-256:
 
 ## Diferenças para FrogOS
 
-CajuOS e FrogOS pertencem à mesma família UniFrog e compartilham a organização geral de BIOS, firmware, frontend, dados e cores. A diferença está principalmente na camada de firmware recompilada, configuração, tema, documentação e diagnósticos.
+CajuOS e FrogOS foram comparados no mesmo hardware-alvo e em relação às mesmas convenções observáveis de cartão SD, BIOS, firmware, frontend, dados e cores. O CajuOS mantém identidade, configuração, documentação, tema e diagnósticos próprios.
 
-| Critério | CajuOS v0.3.3-beta | FrogOS/UniFrog v0.5.2 |
+| Critério | CajuOS v0.3.3-beta | Referência FrogOS/UniFrog |
 | --- | --- | --- |
 | Objetivo | GB300 e experiência localizada | Base mais conservadora e enxuta |
 | Interface | Tema CajuOS, splash e português | Menos personalização no pacote comparado |
@@ -82,7 +82,7 @@ A conclusão profissional não é que CajuOS seja universalmente melhor ou pior.
 
 Os valores `cpu=918`, `frameskip=1`, `audio=1` e `ge_clock=0` são configurações observáveis no pacote. Eles representam intenção operacional e podem favorecer fluidez em alguns cenários, mas não constituem benchmark. Nenhum resultado desta auditoria deve ser apresentado como FPS medido.
 
-O teste host anterior executou uma ROM GBA real e demos homebrew de SNES, Genesis e PC Engine em emuladores Linux. Essa evidência confirma que as ROMs funcionam no host e que os formatos são válidos; ela não prova que os cores OCFU do CajuOS produzirão o mesmo resultado no GB300.
+O teste host anterior executou uma ROM GBA real e demos homebrew de SNES, Genesis e PC Engine em emuladores Linux. Essa evidência confirma que as ROMs funcionam no host e que os formatos são válidos; ela não prova que os cores do CajuOS produzirão o mesmo resultado no GB300.
 
 ## Instalação e recuperação
 
