@@ -1,0 +1,1 @@
+17f8169aa10ec66ebea5a6384d863fbe348aa662e0b02dbdb7742663c9ff5fe4  /home/ubuntu/cajuos-gb300/release/CajuOS-GB300-v0.4.0-performance-sdcard.zip
