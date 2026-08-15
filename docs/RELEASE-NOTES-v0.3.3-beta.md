@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Primeira release pública beta do CajuOS para o console portátil GB300. O download é um **overlay de cartão SD**, não uma imagem bruta. A versão é baseada no UniFrog v0.5.2 e adiciona tema CajuOS, português, diagnósticos, perfil SNES documentado e correção de seleção de imagens PS1.
+Primeira release pública beta do CajuOS para o console portátil GB300. O download é um **overlay de cartão SD**, não uma imagem bruta. O CajuOS é um projeto independente e esta versão adiciona tema CajuOS, português, diagnósticos, perfil SNES documentado e correção de seleção de imagens PS1.
 
 **Autor/mantenedor:** [@melo._.071 no Instagram](https://www.instagram.com/melo._.071/)
 
@@ -48,7 +48,7 @@ FrogOS/UniFrog continua sendo a referência conservadora e pública. O CajuOS n�
 
 ## Source e componentes
 
-A base UniFrog v0.5.2 é pública. O overlay beta distribui binários e metadata; o source/patch completo específico da build CajuOS ainda não acompanha este artefato. Consulte `overlay/unifrog/THIRD_PARTY.md`, `NOTICE-THIRD-PARTY.md` e os avisos de cada core antes de redistribuir componentes.
+O CajuOS mantém seus próprios binários, metadata, source e regras de distribuição. UniFrog/FrogOS aparecem nesta nota apenas como referência técnica de comparação. Consulte `unifrog/THIRD_PARTY.md`, `NOTICE-THIRD-PARTY.md` e os avisos de cada core antes de redistribuir componentes.
 
 ## Tópicos
 
@@ -56,4 +56,4 @@ A base UniFrog v0.5.2 é pública. O overlay beta distribui binários e metadata
 
 ## English summary
 
-CajuOS GB300 v0.3.3-beta is an experimental SD-card overlay for the DataFrog GB300. It is based on UniFrog v0.5.2, adds a Portuguese CajuOS interface and diagnostics, and fixes QPSX file selection by preferring `.cue` over `.bin` when both are present. It has passed structural and virtual-card checks, but it has **not been boot-tested on a physical GB300**. Back up the original card, use a copy, and do not install it on other consoles.
+CajuOS GB300 v0.3.3-beta is an experimental SD-card overlay for the DataFrog GB300. It is an independent CajuOS release with a Portuguese interface, diagnostics and QPSX file selection that prefers `.cue` over `.bin` when both are present. It passed structural and virtual-card checks, but it was **not boot-tested on a physical GB300**. Back up the original card, use a copy, and do not install it on other consoles.
