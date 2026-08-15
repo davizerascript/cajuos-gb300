@@ -1,50 +1,50 @@
-c0a1a187321d93c32f39f57bda2338a4a8321a3c660b867eb90ad6c1a8ca4518  ./README-CAJUOS.txt
+0c3a8b1f18bad2bccba09a1a9b5d7d309147739b84ce17683e1b6dfa191d4bb2  ./Caju OS Data/cajuos-manifest.ini
+cb5050dd648159a690c676cfca728f5a3c4e969679c8cb6972cd58cfe87e7f92  ./Caju OS Data/cajuos/assets/boot-splash-320x240.png
+ca90ef4ef3c6d6c754fc5c048b3a927a8ba12ae07fad01e044466e5212b895a8  ./Caju OS Data/cajuos/assets/welcome-splash-320x240.png
+6b8f322543cf5df772a831985a4a4f8aae3cc9ba3c40617593fb91c9149fab6f  ./Caju OS Data/cajuos/diagnostics/cajuos_controls.c
+fd6db8347dbc628ca64d637869a90b14104331d7475902ce2392f85b15c6ff46  ./Caju OS Data/cajuos/diagnostics/cajuos_controls.h
+f12edcecc70b2cf1481497738539e2af1a7305f145bded3ff32d811e7c35e8c6  ./Caju OS Data/cajuos/diagnostics/test_cajuos_controls.c
+083ae87d45e30cc8509da6c011abd6d1bee78b346bde5df2d94590ac6c62ebd2  ./Caju OS Data/controls-test.txt
+c27777ed6120fa9a5db87412348d398d5da2e8dc98d9269952c501805ab795c3  ./Caju OS Data/languages/deutsch.ini
+05342c540fa0d6486419a00c974fe8484d5e8a69a745cbeac26d34488d4f4171  ./Caju OS Data/languages/espanol.ini
+0645cac3753a7940547f231fdfe414aecde9db507baf8c80e39d132e78318f22  ./Caju OS Data/languages/francais.ini
+02638df566d367a7f5c1fdba7a31e6a46a49ae0ef4edccf1846c1acdbdd2bc11  ./Caju OS Data/languages/italiano.ini
+c8c617f2de2f043f45796f5bb551c2731f5e56f4cb3cd000244223ff1984b3cf  ./Caju OS Data/languages/portugues.ini
+d9cb125941c614f3fd5af2754a7a17f6149795f0c9c2cd6d15f559afdfff8379  ./Caju OS Data/scripts/audio-test.js
+678154a33a623cb03d776bb0716f4678b6b502dc3008ed158df3fbffd3cb65b3  ./Caju OS Data/scripts/cajuos-health-check.js
+9b5908c578b8d1aa371906f7147a554d002ce14dcfb02f8af9b65be90bbfcb0d  ./Caju OS Data/scripts/cajuos-snes-benchmark.js
+13b8266281a0c0d8b287728539413775819bab9094979e411b97a5d030241525  ./Caju OS Data/scripts/cajuos-storage-safe.js
+ca5bad41e99241766246a7ccdc91ce06d6e7a632476515dde6c53fb45c059dfa  ./Caju OS Data/scripts/display-benchmark.js
+e59153fedc14bd959bacf33074603a65611de0b50da26062af56411d61396e07  ./Caju OS Data/scripts/display-color-test.js
+f18b09b8860dff792c1830861b67ad561197b208e3f2a73ebf6650792c380f98  ./Caju OS Data/scripts/frontend-driver-core.js
+5acb67e34b5ffbf77fd3fa24c96b4074580764582d3887cce897041dfdb6e673  ./Caju OS Data/scripts/frontend-driver-frontend.js
+cf465fe972790bf578ad702d0843efd8e83862054729a846c53efe3dd899fcba  ./Caju OS Data/scripts/frontend-driver.js
+835d9874f1401960eac505b3835f0f13ca7095d47dbb3acf2c1292a232b88a3d  ./Caju OS Data/scripts/frontend-driver/_fd-lib.js
+7c7b41649e2fdc0f25283a93b7debe5c3ddb0d5c2f00bca2c128f13c9107b205  ./Caju OS Data/scripts/frontend-driver/core-tests.js
+a7491f80e5eddba27c5bc2d733a6424c0fbf74a78a0246fa5b69eddcd9cfc842  ./Caju OS Data/scripts/frontend-driver/frontend-tests.js
+8c4b2a0b6183b1875f5101569fc5cddc21011f0bcae426c1415ae58e49121fd6  ./Caju OS Data/scripts/frontend-driver/storage-stress-tests.js
+53ac6f07c403f87ac20b884251f11c6b2a3445cf2deaf48d8f2c16746256066a  ./Caju OS Data/scripts/storage-interference-probe.js
+3f811f4e2599bf34a526902cbc3e2b89725b973dcc3d47a5d22b5b36eb17d130  ./Caju OS Data/scripts/storage-quick-benchmark.js
+23110baf7ca18211b6e19d6fb2a3e9f37de128bd6d5841a9161e5f32d0eaa498  ./Caju OS Data/scripts/storage-stress-aggressive.js
+08259f9a599ab809ac788e5cccb0ed07c237812a6901068283ae5f01b408e66d  ./Caju OS Data/scripts/storage-stress-sweep.js
+b95cf26c6ebde361820be8108e1dfa8baed83d0a36d3c9356e29253d1aab383a  ./Caju OS Data/settings.ini
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./Caju OS/.package.2665594213.stamp
+e5b1942120fab77141783d05ee2ccf6ff968115c77efb7138c01125234ea078d  ./Caju OS/LICENSE.txt
+8dab8dccbbf0cff63666cccac2cc1450ca183511be7f894ff75c0a39e2d2ff7c  ./Caju OS/THIRD_PARTY.md
+2d6f0290585e1239800fe8cec73c86f2880d0c1c47b1c0954373ff3cac0df9f4  ./Caju OS/cores/fceumm.bin
+9b4551ca54cdb1d9626bcda836d00a37f016d9640fdb7808605b0ec6ba49cde3  ./Caju OS/cores/gambatte.bin
+a78e8778bf656dd07b3180b133e64f4f0168b37c94b75e026d8e2f066a2420f9  ./Caju OS/cores/gearboy.bin
+1cf460613ceb8275ed538cefcccc266d92e4d96d566ee3252b252073d07c4389  ./Caju OS/cores/gpsp-gbac-prosty.bin
+b464d77e87621729ca571cc7234606007dce28448330a70a8a7f11d1892505ba  ./Caju OS/cores/gpsp.bin
+ee81162f7ef039af02c4c1154b5d6530ffc77173a8b5b14214606ffec0768a2a  ./Caju OS/cores/pce-fast.bin
+dfb910bc7f5881e66c3f5d79c8b750e86010b8a4cdd5777b4b504bceea34c8cc  ./Caju OS/cores/picodrive.bin
+f87f30e2781d06ce0e99a37e59a1b45ca9cfc4414dfd6b8c4801f26ede2721c5  ./Caju OS/cores/qpsx.bin
+4bb16e01998e71699d260404ead8e66d19cf03b34ed92fb1c7d574f14440c473  ./Caju OS/cores/quicknes.bin
+a5e3823a687dbe42426b6c2a2a4f3b00819c47b898433088cbd5fe4d0abeb8b0  ./Caju OS/cores/snes9x2002.bin
+7c8397822afe96132b4cd37d754ec9671feed671da7e87857a9b8b0628b43353  ./Caju OS/cores/snes9x2005.bin
+a6892e1d834d211cc2f5ce693b51e12771076b1339b0944fc08366ba34f95130  ./Caju OS/firmware/cajuos.bin
+5befea3f3add71e8954ebd4798de160ecf7ed6066487a5191503f4ef1a6d612c  ./Caju OS/manifest.ini
+b57db1833015f65c6b3be597b36d882906ea047d2236b576e1838f3f4f08b739  ./README-CAJUOS.txt
 573081322800c728f6348a280dfd2ad9662edd29729c55657b857d0ec37febfd  ./REPRODUCE-CAJUOS.txt
 851da6c1430a9e8633d88ab1e06a8af9637f3bd695e7577eb8c6ef2fd2822b40  ./ROMS/.keep
 6f60cb5a2a053366517a0812b0a6b7ce861732dd7f7e8055a8208b2e5f3a80b3  ./bios/bisrv.asd
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./unifrog/.package.1556949901.stamp
-e5b1942120fab77141783d05ee2ccf6ff968115c77efb7138c01125234ea078d  ./unifrog/LICENSE.txt
-8dab8dccbbf0cff63666cccac2cc1450ca183511be7f894ff75c0a39e2d2ff7c  ./unifrog/THIRD_PARTY.md
-fecdd1d2ff713192c5f34e373bede5c0e5f400391ef767e1eb12cbd501f7289d  ./unifrog/cores/fceumm.bin
-b6b9f22eaf6a12895b9fb5f66e707517e2e3c69513e0aee0ad40126fb18d965b  ./unifrog/cores/gambatte.bin
-91c0524e920610854a39ab7b1c8997cc6ad701431e3ae21da811fcc1f47a5b7b  ./unifrog/cores/gearboy.bin
-7d37af5011b72ac69ead536f759b3a8150867b4d8f7c931dd700c00eb6e18f41  ./unifrog/cores/gpsp-gbac-prosty.bin
-024eddd63ae5769457c2195ab12e72f9f12f74d1ac3b43ee171664e710e9bad6  ./unifrog/cores/gpsp.bin
-ea657f4177574703765c8d2cf809c77a20c9707a9937986962ce5092c1c3774b  ./unifrog/cores/pce-fast.bin
-845e57f8660f8fa719f9921755b224f1f7ada7c710c203386f7c53954cece263  ./unifrog/cores/picodrive.bin
-9f7c74e7f5cda120ca95b80aae6435ca649f07482855b26508d0bd2b7971bd65  ./unifrog/cores/qpsx.bin
-4bb16e01998e71699d260404ead8e66d19cf03b34ed92fb1c7d574f14440c473  ./unifrog/cores/quicknes.bin
-a5e3823a687dbe42426b6c2a2a4f3b00819c47b898433088cbd5fe4d0abeb8b0  ./unifrog/cores/snes9x2002.bin
-7c8397822afe96132b4cd37d754ec9671feed671da7e87857a9b8b0628b43353  ./unifrog/cores/snes9x2005.bin
-c8863d60051ed51f9aaf7e5192c76e26ad39971f10ebcdfda8f1ac718c37ed0e  ./unifrog/firmware/unifrog.bin
-63d3f4e54884aa3feb5d3a34dd24a6881d6b582993b65b71c199a7c62e177388  ./unifrog/manifest.ini
-b5821dde43cc675735c3415d6c54156b1bb9728943f6bad97bc3458e91d5ac4a  ./unifrog_data/cajuos-manifest.ini
-cb5050dd648159a690c676cfca728f5a3c4e969679c8cb6972cd58cfe87e7f92  ./unifrog_data/cajuos/assets/boot-splash-320x240.png
-ca90ef4ef3c6d6c754fc5c048b3a927a8ba12ae07fad01e044466e5212b895a8  ./unifrog_data/cajuos/assets/welcome-splash-320x240.png
-6b8f322543cf5df772a831985a4a4f8aae3cc9ba3c40617593fb91c9149fab6f  ./unifrog_data/cajuos/diagnostics/cajuos_controls.c
-fd6db8347dbc628ca64d637869a90b14104331d7475902ce2392f85b15c6ff46  ./unifrog_data/cajuos/diagnostics/cajuos_controls.h
-f12edcecc70b2cf1481497738539e2af1a7305f145bded3ff32d811e7c35e8c6  ./unifrog_data/cajuos/diagnostics/test_cajuos_controls.c
-083ae87d45e30cc8509da6c011abd6d1bee78b346bde5df2d94590ac6c62ebd2  ./unifrog_data/controls-test.txt
-c27777ed6120fa9a5db87412348d398d5da2e8dc98d9269952c501805ab795c3  ./unifrog_data/languages/deutsch.ini
-05342c540fa0d6486419a00c974fe8484d5e8a69a745cbeac26d34488d4f4171  ./unifrog_data/languages/espanol.ini
-0645cac3753a7940547f231fdfe414aecde9db507baf8c80e39d132e78318f22  ./unifrog_data/languages/francais.ini
-02638df566d367a7f5c1fdba7a31e6a46a49ae0ef4edccf1846c1acdbdd2bc11  ./unifrog_data/languages/italiano.ini
-c8c617f2de2f043f45796f5bb551c2731f5e56f4cb3cd000244223ff1984b3cf  ./unifrog_data/languages/portugues.ini
-3cd31b3c3df35829ccd826fb1bb912430762a6b874aa926e0f7eeb16ba8e4bf3  ./unifrog_data/scripts/audio-test.js
-05c702b35b036f8fce5444126cf4c5977c0458dc5400baa7d0ca66f287bffe77  ./unifrog_data/scripts/cajuos-health-check.js
-9b5908c578b8d1aa371906f7147a554d002ce14dcfb02f8af9b65be90bbfcb0d  ./unifrog_data/scripts/cajuos-snes-benchmark.js
-94e7c209dbba9f8ba4f10c1ad86843d0811101d654c5e7a4aa102aef021661f3  ./unifrog_data/scripts/cajuos-storage-safe.js
-0f5349de61d37f80c27f702e1e7a830466dc85ad4500f95001eaf9d3701632f3  ./unifrog_data/scripts/display-benchmark.js
-be92be293f9710c1aaefce3d19f358570144f41dfeb910c6ffd85002ac6389ec  ./unifrog_data/scripts/display-color-test.js
-f18b09b8860dff792c1830861b67ad561197b208e3f2a73ebf6650792c380f98  ./unifrog_data/scripts/frontend-driver-core.js
-5acb67e34b5ffbf77fd3fa24c96b4074580764582d3887cce897041dfdb6e673  ./unifrog_data/scripts/frontend-driver-frontend.js
-cf465fe972790bf578ad702d0843efd8e83862054729a846c53efe3dd899fcba  ./unifrog_data/scripts/frontend-driver.js
-945c531a9e99513bf670f8e622ba1499c8aef0fbd463ed29c16b3c8751839598  ./unifrog_data/scripts/frontend-driver/_fd-lib.js
-7c7b41649e2fdc0f25283a93b7debe5c3ddb0d5c2f00bca2c128f13c9107b205  ./unifrog_data/scripts/frontend-driver/core-tests.js
-9fed7a18cf1bc2f70a61c5d18f22d85b4a6029ea49524d44e62de36e017d9bd4  ./unifrog_data/scripts/frontend-driver/frontend-tests.js
-8c4b2a0b6183b1875f5101569fc5cddc21011f0bcae426c1415ae58e49121fd6  ./unifrog_data/scripts/frontend-driver/storage-stress-tests.js
-53ac6f07c403f87ac20b884251f11c6b2a3445cf2deaf48d8f2c16746256066a  ./unifrog_data/scripts/storage-interference-probe.js
-de3cae4928fd058a7a899d634f73df2b7442fae2e7956a356750c4fcc9e93eff  ./unifrog_data/scripts/storage-quick-benchmark.js
-23110baf7ca18211b6e19d6fb2a3e9f37de128bd6d5841a9161e5f32d0eaa498  ./unifrog_data/scripts/storage-stress-aggressive.js
-08259f9a599ab809ac788e5cccb0ed07c237812a6901068283ae5f01b408e66d  ./unifrog_data/scripts/storage-stress-sweep.js
-b95cf26c6ebde361820be8108e1dfa8baed83d0a36d3c9356e29253d1aab383a  ./unifrog_data/settings.ini
