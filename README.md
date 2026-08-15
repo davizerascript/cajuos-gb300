@@ -28,6 +28,12 @@ Não use este ZIP em SF2000, TrimUI ou outro console. Não grave o ZIP como imag
 
 A comparação não permite afirmar que o CajuOS é mais rápido. O CajuOS possui hipóteses e instrumentação mais específicas para SNES/GB300, mas FPS, frame time, latência, autonomia e áudio ainda precisam ser medidos no console físico. Para uso conservador, FrogOS continua sendo a referência de menor risco de release; o CajuOS é uma alternativa experimental com mais personalização e ambição de produto.
 
+## Performance Manager v0.4.0
+
+A versão Performance Manager adiciona um menu nativo antes do lançamento de cada jogo. Depois de escolher a ROM e o core, a pessoa pode selecionar o perfil de desempenho, CPU, GPU/GE, frameskip, áudio e descarte de frames repetidos. O perfil escolhido é encaminhado ao host libretro e aplicado somente nas opções que o core realmente suporta.
+
+O repositório agora publica quatro partes separadas: o [source/build do CajuOS](source/README.md), o [pacote fonte ZIP](release/CajuOS-GB300-source-v0.4.0-performance.zip), o script [`scripts/build-cajuos-release.sh`](scripts/build-cajuos-release.sh) e o [ZIP pronto para cartão SD](release/CajuOS-GB300-v0.4.0-performance-sdcard.zip). As notas detalhadas estão em [`docs/RELEASE-NOTES-v0.4.0-performance.md`](docs/RELEASE-NOTES-v0.4.0-performance.md).
+
 ## Correção de PS1 nesta versão
 
 O driver `unifrog_data/scripts/frontend-driver/_fd-lib.js` agora mantém um fallback geral de extensão e, para o core `qpsx`, prioriza arquivos `.cue` quando há mais de um arquivo compatível na pasta. O teste virtual com uma imagem PS1 homebrew selecionou:
