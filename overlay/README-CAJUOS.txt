@@ -1,27 +1,45 @@
-CAJUOS GB300 v0.3.3 — OVERLAY DE CARTAO
+CajuOS GB300 4.1 — INSTALAÇÃO RÁPIDA
 
-Este ZIP NAO e uma imagem de disco. Nao use Rufus, Etcher ou dd.
+Este ZIP e um pacote de arquivos para cartao SD. Ele NAO e uma imagem de disco.
+Nao use Rufus, Etcher ou dd para gravar este ZIP.
 
-1. Faça uma copia integral de um cartao GB300 que ja inicia no seu console.
-2. Formate somente se voce possuir a imagem/backup apropriado da sua revisao v1/v2.
-3. Extraia este pacote NA RAIZ da copia do cartao, mesclando diretorios.
-4. Preserve ROMS/, saves/, BIOS pessoais e quaisquer arquivos do cartao original.
-5. O diretorio ROMS/ e criado apenas como estrutura vazia; ele nao contem jogos.
-6. Use FAT32 e mantenha o console desligado ao inserir/remover o cartao.
+1. Desligue o GB300 e faca uma copia integral do cartao original.
+2. Abra CajuOS-GB300-v4.1-sdcard.zip no computador.
+3. Extraia os itens de dentro do ZIP diretamente na raiz da copia do cartao.
+4. Nao deixe o conteudo dentro de uma pasta intermediaria com o nome do ZIP.
+5. Preserve ROMS/, saves, BIOS pessoais e arquivos da revisao do seu console.
+6. Ejete o cartao com seguranca antes de coloca-lo novamente no GB300.
 
-O primeiro teste deve ser somente boot, menu e controles. Se ocorrer tela preta
-antes do menu, restaure a copia original: nao tente corrigir com frameskip,
-clock de CPU, perfis UHS ou troca de BIOS.
+A raiz correta deve conter:
 
-O perfil padrao usa ROMS/ somente, audio ligado, Snes9x2002 para SNES, QPSX
-para PS1, GE 198 MHz e backlight 50. Perfis de SD agressivos continuam fora
-do padrao de diagnostico.
+Caju OS/
+Caju OS Data/
+ROMS/
+bios/
+README-CAJUOS.txt
+REPRODUCE-CAJUOS.txt
 
-FORMATOS RECOMENDADOS
+O firmware publico esta em Caju OS/firmware/cajuos.bin.
+As configuracoes, scripts, idiomas, saves, logs e dados ficam em Caju OS Data/.
+Nao renomeie essas duas pastas depois da instalacao.
+
+ROMs nao sao distribuidas pelo CajuOS. Copie somente conteudo que voce possui legalmente:
+
 GBA: ROMS/GBA/*.gba
 SNES: ROMS/SFC/*.sfc ou *.smc
 MEGA DRIVE: ROMS/MD/*.md, *.gen, *.smd ou *.bin
 PC ENGINE: ROMS/PCE/*.pce ou *.sgx
-PS1/QPSX: ROMS/PS/*.cue com o *.bin correspondente na mesma pasta.
-Quando CUE e BIN coexistirem, o driver CajuOS prioriza o CUE para QPSX.
-O BIN de Mega Drive permanece associado ao PicoDrive por estar em ROMS/MD.
+PS1/QPSX: ROMS/PS/*.cue com os *.bin correspondentes na mesma pasta
+NES: ROMS/NES/*.nes
+GAME BOY: ROMS/GB/*.gb ou *.gbc
+
+Para o primeiro boot, teste apenas imagem, menu e controles. Ao abrir uma ROM,
+use o perfil Balanced e selecione Start game. Depois teste Compatibility,
+Performance e Ultra conforme a necessidade do jogo.
+
+Se ocorrer tela preta antes do menu, reinicio, travamento no logo ou perda de
+controles, desligue o console e restaure a copia original. Nao tente corrigir
+uma falha de boot alterando frameskip, clock, BIOS ou parametros do cartao.
+
+Tutorial completo:
+https://github.com/davizerascript/cajuos-gb300/blob/main/docs/INSTALL-CajuOS-GB300.md
